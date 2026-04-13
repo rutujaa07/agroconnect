@@ -1,10 +1,9 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://agroconnect-backend-i2e4.onrender.com/api",
 });
 
-// Automatically attach token to every request
 instance.interceptors.request.use((config) => {
   const user = JSON.parse(localStorage.getItem("agroUser"));
   if (user?.token) {
