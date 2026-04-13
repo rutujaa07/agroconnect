@@ -9,14 +9,21 @@ connectDB();
 const app = express();
 
 // ✅ CORS must be before everything
+// app.use(
+//   cors({
+//     origin: "http://localhost:5173",
+//     credentials: true,
+//   })
+// );
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://agroconnect-frontend.onrender.com",
+    ],
     credentials: true,
   })
 );
-
-// ✅ Body parser - CRITICAL, without this req.body is undefined
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
