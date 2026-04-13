@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://agroconnect-frontend.onrender.com",
+      "https://agroconnect-frontend-0to6.onrender.com",
     ],
     credentials: true,
   })
