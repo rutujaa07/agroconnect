@@ -36,7 +36,7 @@ export default function LabourProfile() {
             className="card border-0 shadow-lg p-4"
             style={{ borderRadius: 20 }}
           >
-            <h3 className="fw-bold mb-1">💪 Create Labourer Profile</h3>
+            <h3 className="fw-bold mb-1"> Create Labourer Profile</h3>
             <p className="text-muted mb-4">
               Fill your details to be visible to farmers
             </p>
