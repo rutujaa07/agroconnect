@@ -17,7 +17,7 @@
 //   const navigate = useNavigate();
 
 //   const roles = [
-//     { value: "farmer", label: "👨‍🌾 Farmer", desc: "Browse & rent equipment" },
+//     { value: "farmer", label: " Farmer", desc: "Browse & rent equipment" },
 //     {
 //       value: "owner",
 //       label: "🏭 Equipment Owner",
